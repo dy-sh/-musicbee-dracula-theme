@@ -144,10 +144,10 @@
 	<element id="Panel.ScrollBarBackground.Default" bg="ScrollbarBG" bg2="ScrollbarBG" /> <!-- Scroll Bar Background -->	
 	<element id="Panel.ScrollBar.Lowlight" bg="ScrollbarButton" bg2="ScrollbarButton" bdr="ScrollbarButton" />
 \\ Ratings  
-	<element id="Panel.StarRating.Default" fg="TextDefault" fg2="TextDefault" />
-	<element id="Panel.StarRating.Highlight" fg="Highlight-Text" fg2="TextDefault" />
-	<element id="Panel.StarRating.Lowlight" fg="Highlight-Text" fg2="TextDefault" />
-	<element id="Panel.NotLovedIcon.Highlight" fg="Highlight-Text" fg2="Highlight-Text" />
+	<element id="Panel.StarRating.Default" fg="TextDefault" fg2="BackgroundDarker" />
+	<element id="Panel.StarRating.Highlight" fg="Highlight-Text" fg2="BackgroundDarker" />
+	<element id="Panel.StarRating.Lowlight" fg="TextDefault" fg2="BackgroundDarker" />
+	<element id="Panel.NotLovedIcon.Highlight" fg="Highlight-Text" fg2="BackgroundDarker" />
 	<element id="Panel.NotLovedIcon.Lowlight" fg2="Highlight-Text" />
 
 \\ PANELS
