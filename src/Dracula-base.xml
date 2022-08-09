@@ -247,9 +247,9 @@
 	
 \\ PLAYERS
 \\ Flat Player
-	<element id="PlayerFlat.Background" bg="Accent" bg2="Accent" />
-	<element id="PlayerFlat.DisplayPanel" bg="Accent" fg="DraculaPurple" fg2="10,10,10" />
-	<element id="PlayerFlat.ProgressBar" bg="Accent" fg="DraculaPurple" bdr="20,20,20" /> <!-- fg is used for the fill colour -->
+	<element id="PlayerFlat.Background" bg="PanelBG" bg2="PanelBG" />
+	<element id="PlayerFlat.DisplayPanel" bg="PanelBG" fg="DraculaPurple" fg2="10,10,10" />
+	<element id="PlayerFlat.ProgressBar" bg="PanelBG" fg="DraculaPurple" bdr="20,20,20" /> 
 	<element id="PlayerFlat.ProgressButton" fg="Highlight" />
 	<element id="PlayerFlat.Control.Default" fg="230,230,230" />
 	<element id="PlayerFlat.Control.Disabled" fg="DraculaDisabled" />
@@ -257,19 +257,19 @@
 	<element id="PlayerFlat.StarRating.Default" fg="DraculaPurple" />
 	<element id="PlayerFlat.StarRating.Lowlight" fg="200,0,0,0" />
 	<element id="PlayerFlat.NotLovedIcon" fg="80,80,80" />
-	<element id="PlayerFlat.SpectrumDefault" bg="DraculaPurple" />
+	<element id="PlayerFlat.SpectrumDefault" bg="Accent" />
 	<element id="PlayerFlat.SpectrumDead" bg="0,0,0" />
 	<element id="PlayerFlat.SpectrumLow" bg="0,0,0" />
 	<element id="PlayerFlat.SpectrumMedium" bg="0,0,0" />
 	<element id="PlayerFlat.SpectrumHigh" bg="0,0,0" />
-	<element id="PlayerFlat.Wavebar" fg="15,15,15" fg2="AccentDarker" />
-	<element id="PlayerFlat.Wavebar.Inner" fg="15,15,15" fg2="AccentDarker" />
+	<element id="PlayerFlat.Wavebar" fg="DraculaPurple" fg2="20,20,20"  />
+	<element id="PlayerFlat.Wavebar.Inner" fg="DraculaPurple" fg2="20,20,20"/>
 	<element id="PlayerFlat.MetroButton.Default" bg="20,20,20" bdr="20,20,20" />
 	<element id="PlayerFlat.MetroButton.Highlight" bg="20,20,20" bdr="20,20,20" />
 \\ Flat Player (on Top)
-	<element id="PlayerTopFlat.Background" bg="Accent" bg2="Accent" fg="0,0,0" bdr="Accent" />
-	<element id="PlayerTopFlat.DisplayPanel" bg="Accent" fg="0,0,0" fg2="10,10,10" />
-	<element id="PlayerTopFlat.ProgressBar" bg="Accent" fg="0,0,0" bdr="20,20,20" /> <!-- fg is used for the fill colour -->
+	<element id="PlayerTopFlat.Background" bg="PanelBG" bg2="PanelBG" fg="255,255,255" bdr="Accent" />
+	<element id="PlayerTopFlat.DisplayPanel" bg="PanelBG" fg="0,0,0" fg2="10,10,10" />
+	<element id="PlayerTopFlat.ProgressBar" bg="PanelBG" fg="DraculaPurple" bdr="20,20,20" />
 	<element id="PlayerTopFlat.ProgressButton" fg="Highlight" />
 	<element id="PlayerTopFlat.Control.Default" fg="TextDefault" />
 	<element id="PlayerTopFlat.Control.Disabled" fg="DraculaDisabled" />
@@ -277,13 +277,13 @@
 	<element id="PlayerTopFlat.StarRating.Default" fg="0,0,0" />
 	<element id="PlayerTopFlat.StarRating.Lowlight" fg="145,0,0,0" />
 	<element id="PlayerTopFlat.NotLovedIcon" fg="80,80,80" />
-	<element id="PlayerTopFlat.SpectrumDefault" bg="DraculaPurple" />
+	<element id="PlayerTopFlat.SpectrumDefault" bg="Accent" />
 	<element id="PlayerTopFlat.SpectrumDead" bg="0,0,0" />
 	<element id="PlayerTopFlat.SpectrumLow" bg="0,0,0" />
 	<element id="PlayerTopFlat.SpectrumMedium" bg="0,0,0" />
 	<element id="PlayerTopFlat.SpectrumHigh" bg="0,0,0" />
-	<element id="PlayerTopFlat.Wavebar" fg="15,15,15" fg2="AccentDarker" />
-	<element id="PlayerTopFlat.Wavebar.Inner" fg="15,15,15" fg2="AccentDarker" />
+	<element id="PlayerTopFlat.Wavebar" fg="DraculaPurple" fg2="20,20,20" />
+	<element id="PlayerTopFlat.Wavebar.Inner" fg="DraculaPurple" fg2="20,20,20" />
 	<element id="PlayerTopFlat.MetroButton.Default" bg="20,20,20" bdr="20,20,20" />
 	<element id="PlayerTopFlat.MetroButton.Highlight" bg="20,20,20" bdr="20,20,20" />
 
@@ -301,18 +301,18 @@
 	<element id="Compact.RightPanel.Highlight" bg="Highlight" fg="235,235,235" />
 	<element id="Compact.RightPanel.Lowlight" bg="40,40,40" fg="235,235,235" />
 	<element id="Compact.RightPanel.ScrollBar" fg="50,50,50" />
-	<element id="Compact.Player.Background" bg="DraculaBackGround" fg="0,0,0" />
+	<element id="Compact.Player.Background" bg="PanelBG" fg="255,255,255" />
 	<element id="Compact.Player.ProgressBar" bg="AccentDarker" fg="0,0,0" bdr="AccentDarker"/>
 	<element id="Compact.Player.ProgressButton" fg="255,255,255" />
 	<element id="Compact.Player.Control.Default" fg="0,0,0" />
 	<element id="Compact.Player.Control.Disabled" fg="DraculaDisabled" />
 	<element id="Compact.Player.Control.Highlight" fg="0,0,0" />
-	<element id="Compact.Player.Wavebar" fg="15,15,15" fg2="AccentDarker" />
-	<element id="Compact.Player.Wavebar.Inner" fg="15,15,15" fg2="AccentDarker" />
+	<element id="Compact.Player.Wavebar" fg="DraculaPurple" fg2="20,20,20" />
+	<element id="Compact.Player.Wavebar.Inner" fg="DraculaPurple" fg2="20,20,20" />
 	<element id="Compact.Player.MetroButton.Default" bdr="0,0,0,0" />
 	<element id="Compact.Player.MetroButton.Highlight" bdr="0,0,0,0" />
 \\ Mini Player
-	<element id="PlayerMini.Background" bg="DraculaComment" bg2="Accent" fg="0,0,0" />
+	<element id="PlayerMini.Background" bg="PanelBG" bg2="PanelBG" fg="255,255,255" />
 	<element id="PlayerMini.ProgressBar" bg="AccentDarker" fg="0,0,0" />
 	<element id="PlayerMini.ProgressButton" fg="255,255,255" />
 	<element id="PlayerMini.Control.Default" fg="0,0,0" />
